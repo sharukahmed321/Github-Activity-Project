@@ -30,22 +30,6 @@ A production-ready Spring Boot microservice that asynchronously fetches GitHub r
 
 ---
 
-## 🔧 Project Structure
-
-src
-├── main
-│ ├── java/com/savantlabs/activitytracker
-│ │ ├── controller # REST endpoints
-│ │ ├── service # Interfaces and Implementations
-│ │ ├── client # GitHub API client (WebClient)
-│ │ ├── config # WebClient, Caching, Resilience4j
-│ │ ├── exception # Custom exception classes
-│ │ └── model # Domain models (Repo, Commit)
-│ └── resources
-│ └── application.properties
-├── test
-│ └── java/... # Unit tests with mocks
-
 ## Run the Project
 
 mvn spring-boot:run
