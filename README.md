@@ -32,4 +32,4 @@ A production-ready Spring Boot microservice that asynchronously fetches GitHub r
 
 ## Run the Project
 
-mvn spring-boot:run
+Just Run the Main Application file in the project. To build or compile the project, use ./gradlew build
